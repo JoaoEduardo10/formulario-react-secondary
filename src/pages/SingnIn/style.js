@@ -13,4 +13,17 @@ export const Cadastro = styled.div`
       margin-bottom: 2rem;
     }
 
+    @media (max-width: 1075px) {
+      width: 95vw;
+      form{
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 731px) {
+      form{
+        width: 90%;
+      }
+    }
+
 `

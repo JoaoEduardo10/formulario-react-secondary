@@ -38,7 +38,7 @@ export const ConteinerForm = styled.form`
     border-radius:30px;
     outline: none;
     padding-left: 3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: all .3s;
   }
 
@@ -78,5 +78,11 @@ export const ConteinerForm = styled.form`
 
   .link:hover{
     color: #57b846;
+  }
+
+  @media (max-width: 1075px) {
+    .conteiner-form input{
+      font-size: .8rem;
+    }
   }
 `;

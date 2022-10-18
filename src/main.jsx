@@ -8,16 +8,19 @@ import { SingIn } from './pages/SingnIn'
 import { GlobalStyle } from "./styles/globalStyles"
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { AppContext } from './components/context'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<SingUp />} />
-        <Route path='/singIn' element={<SingIn />} />
-        <Route path='/home' element={<Home />} />
-      </Routes>
-      <GlobalStyle />
-    </BrowserRouter>
+    <AppContext>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<SingUp />} />
+          <Route path='/singIn' element={<SingIn />} />
+          <Route path='/home' element={<Home />} />
+        </Routes>
+        <GlobalStyle />
+      </BrowserRouter>
+    </AppContext>
   </React.StrictMode>
 )
