@@ -9,6 +9,7 @@ export const Conteiner = styled.div`
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    border-radius: 5px;
 
     @media (max-width: 1075px) {
       width: 95vw;

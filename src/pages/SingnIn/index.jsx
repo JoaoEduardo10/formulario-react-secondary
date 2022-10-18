@@ -1,18 +1,13 @@
-import { useContext, useEffect } from "react"
-import { Context } from "../../components/context"
+import { useEffect, useState } from "react"
 import { Form } from "../../components/Form"
 
 import * as S from './style'
 
 export const SingIn = () => {
-  const context = useContext(Context)
-
-  const { state } = context
 
     return(
         <S.Cadastro>
-          <h1>SingIn</h1>
-          <Form tipoPage="cadastra"/>
+          <Form navigate='/' confirm={true} text={"Singn In"} textButton="Create" textlink="Page de login" />
         </S.Cadastro>
     )
 }

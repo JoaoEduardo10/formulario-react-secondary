@@ -83,6 +83,7 @@ export const ConteinerForm = styled.form`
   @media (max-width: 1075px) {
     .conteiner-form input{
       font-size: .8rem;
+      padding-left: 4rem;
     }
   }
 `;

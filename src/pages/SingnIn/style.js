@@ -8,6 +8,7 @@ export const Cadastro = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 
     h1{
       margin-bottom: 2rem;

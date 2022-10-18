@@ -9,7 +9,7 @@ export const SingUp = () => {
           <div className='img'>
             <img src={img} alt='imagem de notbook' />
           </div>
-          <Form />
+          <Form text={'Member Login'} textlink='Create your Account' textButton={'Login'} navigate={'singIn'} />
         </S.Conteiner>
     )
 };

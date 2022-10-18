@@ -1,10 +1,11 @@
-function Home() {
+import * as S from './styled';
 
+const Home = () => {
   return (
-    <div className="App">
-      <h1>ola</h1>
-    </div>
-  )
-}
+    <S.Conteiner>
+      <h1>Bem vindo</h1>
+    </S.Conteiner>
+  );
+};
 
 export default Home
